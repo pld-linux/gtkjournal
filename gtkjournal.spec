@@ -8,6 +8,8 @@ Group:		X11/Applications
 Source0:	http://linuxhelp.homeunix.com/gtkjournal/files/%{name}-%{version}.tar.gz
 # Source0-md5:	93a3f955c2e437e077ecf5d055b66f49
 URL:		http://linuxhelp.homeunix.com/gtkjournal/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gtkmm-devel
 BuildRequires:	openssl-devel
 BuildRequires:	pkgconfig
