@@ -12,7 +12,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtkmm-devel
 BuildRequires:	libsigc++12-devel
-BuildRequires:	openssl-devel
+BuildRequires:	openssl-devel >= 0.9.7d
 BuildRequires:	pkgconfig
 BuildRequires:	sqlite-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
