@@ -11,6 +11,7 @@ URL:		http://linuxhelp.homeunix.com/gtkjournal/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtkmm-devel
+BuildRequires:	libsigc++12-devel
 BuildRequires:	openssl-devel
 BuildRequires:	pkgconfig
 BuildRequires:	sqlite-devel
@@ -49,6 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
