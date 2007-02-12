@@ -1,5 +1,5 @@
 Summary:	Journal/Diary
-Summary(pl):	Dziennik/Pamiêtnik
+Summary(pl.UTF-8):   Dziennik/PamiÄ™tnik
 Name:		gtkjournal
 Version:	0.3.4
 Release:	1
@@ -23,10 +23,10 @@ bindings for Gtk+2 (gtkmm). It uses SQlite to store your entries, and
 the OpenSSL implementations of the BlowFish and SHA-1 algorithms to
 keep your data safe.
 
-%description -l pl
-Gtk+ Journal jest Dziennikiem/Pamiêtnikiem, napisanym z u¿yciem gtkmm.
-U¿ywa SQlite do przechowywania twoich wpisów i implementacji OpenSSL
-algorytmów BlowFish oraz SHA-1 do zabezpieczenia twoich danych.
+%description -l pl.UTF-8
+Gtk+ Journal jest Dziennikiem/PamiÄ™tnikiem, napisanym z uÅ¼yciem gtkmm.
+UÅ¼ywa SQlite do przechowywania twoich wpisÃ³w i implementacji OpenSSL
+algorytmÃ³w BlowFish oraz SHA-1 do zabezpieczenia twoich danych.
 
 %prep
 %setup -q 
