@@ -1,5 +1,5 @@
 Summary:	Journal/Diary
-Summary(pl.UTF-8):   Dziennik/Pamiętnik
+Summary(pl.UTF-8):	Dziennik/Pamiętnik
 Name:		gtkjournal
 Version:	0.3.4
 Release:	1
